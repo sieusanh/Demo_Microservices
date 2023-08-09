@@ -1,11 +1,4 @@
-api gateway [ip_address]:8000
-account-service 9001
-product-service 9002
-order-service 9003
-
-===================================================
-
-Enpoints Overview:
+- Enpoints Overview:
 
 + Common Feature: Authentication, Authorization. 
 
@@ -23,3 +16,11 @@ Admin: AggByCategory, AggByRating, AggByBrand, AggByTime
 Common: Greeting
 User: Create, UpdateById
 Admin: Find, FindById, DeleteById
+
+============================================================================
+
+- Notes:
++ Gateway [ip_address]:8000
++ Service 1: account-service 9001
++ Service 2: product-service 9002
++ Service 3: order-service 9003
