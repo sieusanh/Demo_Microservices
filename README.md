@@ -1,4 +1,4 @@
-- Enpoints Overview:
+Enpoints Overview:
 
 + Common Feature: Authentication, Authorization. 
 
@@ -17,9 +17,9 @@ Common: Greeting
 User: Create, UpdateById
 Admin: Find, FindById, DeleteById
 
-============================================================================
+========================================================================
 
-- Notes:
+Notes:
 + Gateway [ip_address]:8000
 + Service 1: account-service 9001
 + Service 2: product-service 9002
