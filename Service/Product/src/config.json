@@ -1,0 +1,8 @@
+{
+    "PORT": 9002,
+    "DATABASE_HOST": "http://localhost:9200",
+    "CLIENT_UTC_OFFSET": 7,
+    "AN_HOUR_MILLISECS": 3600000,
+    "INDEX_PRODUCT": "products",
+    "ACCESS_TOKEN_SECRET": "zzz123zzz"
+}

@@ -1,0 +1,35 @@
+https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-create-index.html
+https://github.com/elastic/elasticsearch-js
+
+
+PUT /my-first-index
+{
+  "settings": {
+    "index": {
+      "number_of_shards": 3,  
+      "number_of_replicas": 2 
+    }
+  },
+  "mappings": {
+    "properties": {
+      "name": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "count": {
+        "type": "integer"
+      },
+      "created_at": {
+        "type": "long"
+      },
+      "id": {
+        "type": "keyword"
+      }
+    }
+  }
+}

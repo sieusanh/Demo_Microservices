@@ -1,0 +1,17 @@
+
+# Turn off all wsl instances such as docker desktop
+wsl --shutdown
+
+# Create a %UserProfile%\.wslconfig file for configuring WSL2 settings, path: C:\Users\<UserName>\.wslconfig
+
+# Edit .wslconfig file with:
+[wsl2]
+memory=3GB   # Limits VM memory in WSL 2 up to 3GB
+processors=4 # Makes the WSL 2 VM use two virtual processors
+
+# Search Keyword: 
+# + why elasticsearch docker compose vmmem ram
+# + setup .wslconfig memory docker
+
+# Es docker compose file
+# https://viblo.asia/p/tich-hop-elasticsearch-va-kibana-vao-docker-compose-Az45bymqlxY
