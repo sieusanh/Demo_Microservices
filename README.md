@@ -1,21 +1,30 @@
 Enpoints Overview:
 
-+ Common Feature: Authentication, Authorization. 
++ Authentication, Authorization. 
 
-+ Account Service:
-Common: Greeting, Register, Login
-User: GetAccountInfo
-Admin: Count, Find, FindById, UpdateById, RemoveAll
++ Account Service:  
 
-+ Product Service:
-Common: Greeting, Find
-User: Create, UpdateByQuery, DeleteById
-Admin: AggByCategory, AggByRating, AggByBrand, AggByTime
+Common: Greeting, Register, Login  
 
-+ Order Service:
-Common: Greeting
-User: Create, UpdateById
-Admin: Find, FindById, DeleteById
+User: GetAccountInfo  
+
+Admin: Count, Find, FindById, UpdateById, RemoveAll  
+
++ Product Service:  
+
+Common: Greeting, Find  
+
+User: Create, UpdateByQuery, DeleteById  
+
+Admin: AggByCategory, AggByRating, AggByBrand, AggByTime  
+
++ Order Service:  
+
+Common: Greeting  
+
+User: Create, UpdateById  
+
+Admin: Find, FindById, DeleteById  
 
 ========================================================================
 

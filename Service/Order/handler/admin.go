@@ -33,7 +33,7 @@ func GetRespById(paramId string) ([]models.Order, error) {
 			util.ProductItemMapping(order.ProductList)
 		products, err := 
 			util.GetProductResponse(product_ids_string)
-		fmt.Println(err)
+			
 		for i, v := range products {
 			products[i].Quantity = quantityMapping[v.Id]
 		} 
