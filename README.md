@@ -4,27 +4,27 @@ Enpoints Overview:
 
 + Account Service:  
 
-Common: Greeting, Register, Login  
+    Common: Greeting, Register, Login  
 
-User: GetAccountInfo  
+    User: GetAccountInfo  
 
-Admin: Count, Find, FindById, UpdateById, RemoveAll  
+    Admin: Count, Find, FindById, UpdateById, RemoveAll  
 
 + Product Service:  
 
-Common: Greeting, Find  
+    Common: Greeting, Find  
 
-User: Create, UpdateByQuery, DeleteById  
+    User: Create, UpdateByQuery, DeleteById  
 
-Admin: AggByCategory, AggByRating, AggByBrand, AggByTime  
+    Admin: AggByCategory, AggByRating, AggByBrand, AggByTime  
 
 + Order Service:  
 
-Common: Greeting  
+    Common: Greeting  
 
-User: Create, UpdateById  
+    User: Create, UpdateById  
 
-Admin: Find, FindById, DeleteById  
+    Admin: Find, FindById, DeleteById  
 
 ========================================================================
 
