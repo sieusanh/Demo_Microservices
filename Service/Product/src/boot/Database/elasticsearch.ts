@@ -1,7 +1,7 @@
 const { Client, errors } = require('@elastic/elasticsearch')
 import { DATABASE_HOST, INDEX_PRODUCT } from '../../config.json';
 
-// Class elasticsearch client 
+// Define elasticsearch client 
 class EsService {
     private EsClient: any
     constructor() {
@@ -73,6 +73,5 @@ class EsService {
     
 }
     
-// Declare Elasticsearch client instance
 const EsClient = new EsService();
 export default EsClient;
