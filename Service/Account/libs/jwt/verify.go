@@ -16,3 +16,4 @@ func Verify(tokenString string) (*jwt.Token, error) {
 
 	return token, err
 }
+

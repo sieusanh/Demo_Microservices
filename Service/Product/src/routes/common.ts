@@ -7,8 +7,8 @@ const router = Router();
 // Get controller data
 const { common } = controllers;
 
-for (const name in common) {
-    // Mapping REST API Methods 
+for (const name in common) {        
+    // Mapping REST Methods 
     const method = api_method_mapping[name];
 
     if (name === 'find') {
